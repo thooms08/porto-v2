@@ -1,0 +1,347 @@
+@import '@fontsource-variable/inter';
+@import '@fontsource-variable/jetbrains-mono';
+
+:root {
+	--bg: #050816;
+	--bg-raised: #090e24;
+	--surface: #0d1330;
+	--surface-2: #121a3f;
+	--border: rgba(148, 163, 200, 0.16);
+	--border-strong: rgba(148, 163, 200, 0.28);
+	--text: #e8ebf8;
+	--text-muted: #98a1c4;
+	--accent: #5b7cff;
+	--accent-hover: #7b95ff;
+	--accent-ink: #060a1f;
+	--focus: #9db0ff;
+	--neb-cyan: #7fb0ff; /* cyan-biru nebula: label, titik bintang */
+
+	--radius-s: 6px;
+	--radius-m: 10px;
+	--radius-l: 14px;
+	--radius-xl: 20px;
+
+	--font-sans: 'Inter Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+	--font-mono: 'JetBrains Mono Variable', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+	--container-max: 1120px;
+	--section-spacing: clamp(72px, 10vw, 128px);
+	--header-height: 64px;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+	color-scheme: dark;
+	background-color: var(--bg);
+	color: var(--text);
+	font-family: var(--font-sans);
+	font-size: 16px;
+	line-height: 1.6;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* CSS fallback for starfield on body when SSR/without JS */
+body {
+	min-height: 100dvh;
+	/* NO background-color here — let html handle it so canvas shows through */
+	background-color: transparent;
+	background-image:
+		/* Nebula blob top-left */
+		radial-gradient(ellipse 60% 40% at 15% 20%, rgba(60, 80, 200, 0.07), transparent),
+		/* Nebula blob bottom-right */
+		radial-gradient(ellipse 55% 35% at 85% 75%, rgba(80, 50, 180, 0.06), transparent),
+		/* Nebula blob center */
+		radial-gradient(ellipse 40% 30% at 55% 50%, rgba(40, 60, 160, 0.04), transparent),
+		/* Stars */
+		radial-gradient(1.5px 1.5px at 8%  12%, rgba(232,235,248,0.55), transparent),
+		radial-gradient(1px   1px   at 22% 38%, rgba(232,235,248,0.40), transparent),
+		radial-gradient(2px   2px   at 37% 7%,  rgba(160,185,255,0.50), transparent),
+		radial-gradient(1px   1px   at 51% 62%, rgba(232,235,248,0.35), transparent),
+		radial-gradient(1.5px 1.5px at 65% 28%, rgba(232,235,248,0.45), transparent),
+		radial-gradient(1px   1px   at 79% 15%, rgba(160,185,255,0.40), transparent),
+		radial-gradient(1px   1px   at 90% 55%, rgba(232,235,248,0.30), transparent),
+		radial-gradient(2px   2px   at 14% 80%, rgba(160,185,255,0.45), transparent),
+		radial-gradient(1px   1px   at 44% 90%, rgba(232,235,248,0.35), transparent),
+		radial-gradient(1.5px 1.5px at 73% 88%, rgba(232,235,248,0.40), transparent),
+		radial-gradient(1px   1px   at 95% 32%, rgba(232,235,248,0.30), transparent);
+	overflow-x: hidden;
+	/* Stacking context: main content must sit above the canvas (z-index:0) */
+	position: relative;
+	z-index: 1;
+}
+
+/* Accessible focus outline */
+:focus-visible {
+	outline: 2px solid var(--focus);
+	outline-offset: 2px;
+}
+
+/* Skip to content link */
+.skip-link {
+	position: absolute;
+	top: -100px;
+	left: 1rem;
+	padding: 0.75rem 1.25rem;
+	background: var(--accent);
+	color: var(--accent-ink);
+	font-weight: 600;
+	border-radius: var(--radius-s);
+	z-index: 9999;
+	text-decoration: none;
+	transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+	top: 1rem;
+}
+
+/* Container */
+.container {
+	width: 100%;
+	max-width: var(--container-max);
+	margin-inline: auto;
+	padding-inline: clamp(16px, 4vw, 32px);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+	color: var(--text);
+	font-weight: 700;
+	line-height: 1.2;
+	letter-spacing: -0.02em;
+}
+
+h1 {
+	font-size: clamp(2.25rem, 1.2rem + 4.5vw, 4.25rem);
+}
+
+h2 {
+	font-size: clamp(1.75rem, 1.2rem + 2vw, 2.5rem);
+}
+
+h3 {
+	font-size: clamp(1.25rem, 1rem + 1vw, 1.75rem);
+}
+
+p {
+	color: var(--text-muted);
+	font-size: clamp(1rem, 0.95rem + 0.2vw, 1.125rem);
+	max-width: 65ch;
+	line-height: 1.65;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+/* Kicker / Mono badge — senada dengan label di Hero: cyan + titik bintang bercahaya */
+.kicker {
+	font-family: var(--font-mono);
+	font-size: 0.8125rem;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--neb-cyan);
+	display: inline-flex;
+	align-items: center;
+	gap: 0.6rem;
+	text-shadow: 0 0 18px rgba(90, 160, 255, 0.45);
+}
+
+.kicker::before {
+	content: '';
+	flex: none;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: var(--neb-cyan);
+	box-shadow: 0 0 8px 2px rgba(110, 170, 255, 0.75), 0 0 20px 6px rgba(120, 90, 255, 0.35);
+}
+
+/* Section styling */
+section {
+	padding-block: var(--section-spacing);
+	position: relative;
+}
+
+.section-header {
+	margin-bottom: clamp(32px, 5vw, 56px);
+}
+
+.section-header .kicker {
+	margin-bottom: 0.75rem;
+}
+
+.section-header h2 {
+	margin-bottom: 0.75rem;
+	/* gradien putih → lavender, sama dengan tagline Hero */
+	color: var(--text); /* fallback */
+	background-image: linear-gradient(165deg, #ffffff 0%, #dfe6ff 45%, #a9baff 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+	filter: drop-shadow(0 0 18px rgba(91, 124, 255, 0.25));
+}
+
+/* Garis pemisah section: memudar di kedua ujung (pengganti border-top keras).
+   Pakai dengan menambah class "section-line" pada <section>. */
+.section-line::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: min(calc(100% - 2 * clamp(16px, 4vw, 32px)), var(--container-max));
+	height: 1px;
+	background: linear-gradient(90deg, transparent, rgba(150, 170, 255, 0.4) 50%, transparent);
+	pointer-events: none;
+}
+
+/* Panel kaca: dasar untuk kartu/panel yang senada dengan Navbar & Hero */
+.glass {
+	position: relative;
+	background:
+		radial-gradient(ellipse 110% 45% at 0% 0%, rgba(120, 90, 255, 0.18), transparent 65%),
+		radial-gradient(ellipse 100% 40% at 100% 100%, rgba(60, 130, 255, 0.12), transparent 65%),
+		rgba(10, 15, 40, 0.55);
+	border: 1px solid rgba(150, 170, 255, 0.18);
+	border-radius: var(--radius-xl);
+	-webkit-backdrop-filter: blur(14px) saturate(130%);
+	backdrop-filter: blur(14px) saturate(130%);
+	box-shadow:
+		0 18px 50px -24px rgba(0, 0, 0, 0.7),
+		0 0 50px -28px rgba(91, 124, 255, 0.45),
+		inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* Center-aligned section headers (for sections with compact content) */
+.section-header--center {
+	text-align: center;
+}
+
+.section-header--center .kicker,
+.section-header--center h2,
+.section-header--center p {
+	margin-inline: auto;
+}
+
+/* Buttons (Strictly 2 styles per PRD §5.2) */
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	padding: 0.75rem 1.375rem;
+	font-size: 0.9375rem;
+	font-weight: 600;
+	border-radius: var(--radius-m);
+	cursor: pointer;
+	text-decoration: none;
+	border: 1px solid transparent;
+	transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+	min-height: 44px;
+	min-width: 44px;
+	user-select: none;
+}
+
+.btn:active {
+	transform: scale(0.98);
+}
+
+.btn-primary {
+	background-color: var(--accent);
+	color: var(--accent-ink);
+	border-color: var(--accent);
+}
+
+.btn-primary:hover {
+	background-color: var(--accent-hover);
+	border-color: var(--accent-hover);
+}
+
+.btn-secondary {
+	background-color: transparent;
+	color: var(--text);
+	border-color: var(--border-strong);
+}
+
+.btn-secondary:hover {
+	background-color: rgba(148, 163, 200, 0.08);
+	border-color: var(--accent);
+	color: var(--text);
+}
+
+.btn-sm {
+	padding: 0.5rem 0.875rem;
+	font-size: 0.8125rem;
+	border-radius: var(--radius-s);
+	min-height: 36px;
+}
+
+/* Chips / Tags */
+.chip {
+	display: inline-flex;
+	align-items: center;
+	padding: 0.35rem 0.75rem;
+	font-size: 0.8125rem;
+	font-family: var(--font-mono);
+	background: var(--surface);
+	color: var(--text);
+	border: 1px solid var(--border);
+	border-radius: var(--radius-s);
+	line-height: 1;
+}
+
+/* Cards */
+.card {
+	background-color: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: var(--radius-m);
+	padding: clamp(1.25rem, 3vw, 2rem);
+	transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover {
+	border-color: var(--border-strong);
+	transform: translateY(-2px);
+}
+
+/* Progressive reveal animation */
+html.js [data-reveal] {
+	opacity: 0;
+	transform: translateY(16px);
+	transition: opacity 0.5s cubic-bezier(0.2, 0.7, 0.2, 1), transform 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);
+	will-change: opacity, transform;
+}
+
+html.js [data-reveal].revealed {
+	opacity: 1;
+	transform: translateY(0);
+	will-change: auto;
+}
+
+/* Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+	*, *::before, *::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+
+	html.js [data-reveal] {
+		opacity: 1 !important;
+		transform: none !important;
+		transition: none !important;
+	}
+}

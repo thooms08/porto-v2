@@ -1,0 +1,132 @@
+# Thomas Lefvi Baehaqi — Comprehensive Profile & Documentation
+
+Last Updated: 2026-11-22
+Canonical URL: https://thomaslefvibaehaqi.my.id
+Language: English & Indonesian
+
+---
+
+## 1. Professional Identity & Contact
+- **Name**: Thomas Lefvi Baehaqi
+- **Role**: Fullstack Web Developer
+- **Organization**: Founder of FlavoryID Technologies
+- **Location**: Karawang, West Java, Indonesia
+- **Email**: thomaslefvibaehaqi@gmail.com
+- **Phone / WhatsApp**: +62 851-7828-6438 (https://wa.me/6285178286438)
+- **GitHub**: https://github.com/Thooms08
+- **LinkedIn**: https://www.linkedin.com/in/thomaslb08
+- **Website**: https://thomaslefvibaehaqi.my.id
+
+---
+
+## 2. Professional Biography
+Thomas Lefvi Baehaqi is an Information Systems student and Fullstack Web Developer focused on building digital solutions that deliver real business value. As the Founder of the FlavoryID Technologies digital ecosystem, he combines fullstack expertise across HTML, CSS, JavaScript, TypeScript, PHP, MySQL, Laravel, and Next.js to craft products that are efficient, secure, and user-friendly.
+
+He has spearheaded the development of F&B POS ecosystems, Progressive Web Apps, integrated data management systems, and software-hardware integrations. Every project emphasizes high performance, long-term scalability, and intuitive user experiences through modern AI-assisted development practices.
+
+---
+
+## 3. Work Experience
+1. **IT Developer (Internship)** — PT. Farkatech International Nexus
+   - Period: May 2026 – July 2026 (WFH / Remote)
+   - Scope: Independently assigned each month to architect, develop, and deliver commercial-grade, market-ready web applications from concept to production.
+   - Grade: Final evaluation score 95 (Grade A, Highly Recommended).
+
+2. **Fullstack Web Developer & Deployment (Freelance)** — PT Bryclo Mega Jaya
+   - Period: Feb 2026 – Apr 2026
+   - Project: Supermura.id
+   - Scope: Led full-cycle development and deployment of the Supermura.id e-commerce platform end-to-end, including core feature architecture, payment gateway integration, and production stability assurance.
+
+3. **Founder** — FlavoryID Technologies
+   - Period: Founder
+   - Scope: Founded and directs the FlavoryID Technologies digital ecosystem, overseeing products including Flavory.id, Key.Flavory.id, and Blog.Flavory.id.
+
+---
+
+## 4. Completed Projects
+1. **Flavory.id** (https://flavory.id)
+   - Category: F&B POS Ecosystem
+   - Stack: Laravel, MySQL
+   - Description: Integrated digital POS system for F&B businesses featuring real-time order dispatching, table management, automated financial reporting, and FlavoryAI analytics.
+
+2. **Key.Flavory.id** (https://key.flavory.id)
+   - Category: HRMS Platform
+   - Stack: Laravel, MySQL
+   - Description: Human Resource Management System for MSMEs: digital employee profiles, geolocation shift attendance, leave requests, and payroll-ready reporting.
+
+3. **Blog.Flavory.id** (https://blog.flavory.id)
+   - Category: Digital Media Publication
+   - Stack: Next.js, TypeScript, Prisma ORM
+   - Description: High-performance digital publication platform covering technology, business, and digital innovation.
+
+4. **Supermura.id** (https://supermura.id)
+   - Category: Fashion E-Commerce
+   - Stack: Laravel, MySQL
+   - Description: Low-MOQ fashion e-commerce marketplace connecting local brands and resellers directly with apparel suppliers.
+
+5. **Recomon.my.id** (https://recomon.my.id)
+   - Category: Interactive Card Generator
+   - Stack: Laravel, MySQL
+   - Description: Interactive digital card platform for composing and sharing multimedia invitations and bespoke greetings.
+
+6. **mysems.my.id** (https://mysems.my.id)
+   - Category: Event Management System
+   - Stack: PHP, MySQL
+   - Description: School event operations platform for scheduling, committee coordination, and real-time announcements.
+
+7. **Rekain.my.id** (https://rekain.my.id)
+   - Category: Circular Economy Marketplace
+   - Stack: PHP, MySQL
+   - Description: Supply chain hub connecting garment factories with local textile upcyclers and artisans.
+
+8. **Imkompres** (https://imkompres.vercel.app)
+   - Category: Client-Side Media Tool
+   - Stack: JavaScript, HTML5 Canvas, Web APIs
+   - Description: Fast, privacy-preserving in-browser image and video compressor running 100% locally without uploading files to any server.
+
+---
+
+## 5. Skills & Tooling
+- **Frontend**: HTML5, CSS3, JavaScript, TypeScript, Bootstrap, Tailwind CSS, React.js, Next.js
+- **Backend**: PHP, Laravel, Node.js, RESTful APIs, MySQL, phpMyAdmin, Prisma ORM
+- **Mobile**: Flutter, Dart
+- **Dev Tools**: Git, GitHub, Figma, Vercel, Cloudflare, Google Cloud, VSCode, Laragon, Ngrok
+- **AI Tooling**: Claude, Google Gemini, GitHub Copilot, Kiro IDE
+- **Soft Skills**: Problem Solving, Analytical Thinking, Teamwork, Leadership, Time Management, Public Speaking, Detail-Oriented
+
+---
+
+## 6. Education
+1. **Universitas Bina Sarana Informatika** — Bachelor of Science (S1) in Information Systems (2024 – Present)
+2. **SMK Plus Al Azhar Mariuk** — Vocational Diploma in Office Automation and Governance (2021 – 2024)
+
+---
+
+## 7. Leadership & Organizations
+- Head of Boarding School Committee — PP. Al-Azhar Mariuk (2023 – 2024)
+- Head of Marching Band — PP. Al-Azhar Mariuk (2023 – 2024)
+- Head of Hadroh Ensemble — PP. Al-Azhar Mariuk (2023 – 2024)
+- Event Committee Chairman (IMTIHAN) — PP. Al-Azhar Mariuk (2023)
+- Performing Arts & Hadroh Trainer — SMP Plus Al-Azhar Mariuk & MIN 2 Subang (2022 – 2024)
+- Paskibra (Flag Troop) Member — SMK Plus Al-Azhar Mariuk (2022 – 2023)
+- Scout Member (Pramuka) — SMK Plus Al-Azhar Mariuk (2022 – 2023)
+- Scout Rally Committee — Kec. Tambak Dahan, Kab. Subang (2023)
+
+---
+
+## 8. Licenses & Certifications
+1. Database Administrator Competence Certificate — BNSP & LSP UBSI (Cred: 63120 2521 6 0000214 2026)
+2. Database Competency Assessment – Advanced — PT Jidoka System Indonesia (2025)
+3. Fundamental Junior Web Developer — Digital Talent Scholarship 2025 (Cred: 19310734840-9/VSGA/BLSDM.Komdigi/2025)
+4. IT Developer Internship Achievement (Score 95 / Grade A) — PT Farkatech International Nexus (Cred: FT/CERT/IT/2026/9548)
+5. Learn Basic Web Programming — DBS Foundation Coding Camp 2026 | Dicoding (Cred: 53XE1YKDKZRN)
+6. Spec-Driven Development with Kiro — AWS AI Academy 2026 | Dicoding
+7. AI for Work & Career Readiness with Google AI Products — Maju Bareng AI | Hacktiv8 (Cred: 00949/H8/CSR/MBA2/III/2026)
+8. TOP 10 .ID Community Website Competition (ICWC) — .ID Community Medan (2026)
+9. Machine Learning For Beginner Training — BISA.AI Academy (Cred: 2026/260/76750)
+10. Web Pro Workshop: Build Your First AI-Assisted Website — HIMASI UBSI (2026)
+11. Workshop on 9 Programming Units — Universitas Bina Sarana Informatika (2025)
+12. ERD, LRS, and UML Workshop — HIMASI UBSI PSDKU Karawang (2025)
+13. Automation Webinar: UiPath x IOH — UiPath & Indosat Ooredoo Hutchison (Cred: 1077/ONE-WEBINAR-SERTIF/IV/2026)
+14. Badan Ekraf Digital Talent 2026 — Kementerian Ekonomi Kreatif RI & Dicoding (2026)
+15. FutureLeaders National Webinar — FutureShield & Diskominfo Konawe Selatan (Cred: 500.12/8365)
