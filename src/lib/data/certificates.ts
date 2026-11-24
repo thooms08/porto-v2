@@ -7,12 +7,12 @@ export interface CertificateItem {
 	title: Localized;
 	issuer: string;
 	issuerDisplay: Localized;
-	date: string; // ISO format or year
+	date: string;
 	displayDate: Localized;
 	credentialId?: string;
 	category: CertificateCategory;
-	file: string; // relative to /certificates/
-	thumb: string; // relative to /certificates/
+	file: string;
+	thumb: string;
 	type: 'image' | 'pdf';
 	skills?: string[];
 	description?: Localized;
@@ -202,7 +202,6 @@ export const certificates: CertificateItem[] = [
 		showInPortfolio: true,
 		showOnWeb: true
 	},
-	// --- New certificates discovered in directory ---
 	{
 		id: 'farkatech-internship-achievement',
 		title: {
