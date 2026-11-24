@@ -169,8 +169,8 @@ export const ui: UiStrings = {
 		reloadPreview: { en: 'Reload preview', id: 'Muat ulang' },
 		livePreview: { en: 'Live Preview', id: 'Pratinjau Langsung' },
 		fallbackNotice: {
-			en: 'Live preview unavailable in frame — open the site directly to explore.',
-			id: 'Pratinjau live tidak dapat dimuat di frame — buka situs langsung untuk melihat.'
+			en: 'Live preview unavailable in frame, open the site directly to explore.',
+			id: 'Pratinjau live tidak dapat dimuat di frame, buka situs langsung untuk melihat.'
 		},
 		fallbackAction: { en: 'Open Site in New Tab', id: 'Buka Situs di Tab Baru' },
 		role: { en: 'Role', id: 'Peran' },
@@ -256,10 +256,10 @@ export const ui: UiStrings = {
 	downloads: {
 		cvBtn: { en: 'Download CV (PDF)', id: 'Unduh CV (PDF)' },
 		portfolioBtn: { en: 'Download Portfolio (PDF)', id: 'Unduh Portofolio (PDF)' },
-		cvFilename: { en: 'CV_Thomas_Lefvi_Baehaqi_EN.pdf', id: 'CV_Thomas_Lefvi_Baehaqi_ID.pdf' },
+		cvFilename: { en: 'CV_Thomas_Lefvi_Baehaqi.pdf', id: 'CV_Thomas_Lefvi_Baehaqi.pdf' },
 		portfolioFilename: {
-			en: 'Portfolio_Thomas_Lefvi_Baehaqi_EN.pdf',
-			id: 'Portfolio_Thomas_Lefvi_Baehaqi_ID.pdf'
+			en: 'Portofolio-Thomas_Lefvi_Baehaqi.pdf',
+			id: 'Portofolio-Thomas_Lefvi_Baehaqi.pdf'
 		}
 	}
 };

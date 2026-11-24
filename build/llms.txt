@@ -10,7 +10,7 @@ Thomas Lefvi Baehaqi is an Information Systems undergraduate at Universitas Bina
 - **Phone/WhatsApp**: +62 851-7828-6438 (https://wa.me/6285178286438)
 - **GitHub**: https://github.com/Thooms08
 - **LinkedIn**: https://www.linkedin.com/in/thomaslb08
-- **Last Updated**: 2026-11-22
+- **Last Updated**: 2026-11-24
 
 ## Core Technologies
 - Frontend: HTML5, CSS3, JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, Bootstrap

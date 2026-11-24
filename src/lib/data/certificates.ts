@@ -100,31 +100,6 @@ export const certificates: CertificateItem[] = [
 		showOnWeb: true
 	},
 	{
-		id: 'dicoding-kiro',
-		title: {
-			en: 'Spec-Driven Development with Kiro',
-			id: 'Spec-Driven Development dengan Kiro'
-		},
-		issuer: 'AWS AI Academy 2026 | Dicoding',
-		issuerDisplay: {
-			en: 'AWS AI Academy 2026 | Dicoding',
-			id: 'AWS AI Academy 2026 | Dicoding'
-		},
-		date: '2026',
-		displayDate: {
-			en: '2026',
-			id: '2026'
-		},
-		category: 'course',
-		file: 'sertifikat-spec-driven-development-kiro.webp',
-		thumb: 'sertifikat-spec-driven-development-kiro-thumb.webp',
-		type: 'image',
-		skills: ['AI-Assisted Development', 'Specification-Driven Design', 'Kiro IDE'],
-		showInCv: true,
-		showInPortfolio: true,
-		showOnWeb: true
-	},
-	{
 		id: 'dicoding-web-dasar',
 		title: {
 			en: 'Learn Basic Web Programming',
@@ -172,31 +147,6 @@ export const certificates: CertificateItem[] = [
 		thumb: 'sertifikat-ai-work-career-readiness-thumb.webp',
 		type: 'image',
 		skills: ['Generative AI', 'Google AI Products', 'Workflow Automation'],
-		showInCv: false,
-		showInPortfolio: true,
-		showOnWeb: true
-	},
-	{
-		id: 'ubsi-9-unit',
-		title: {
-			en: 'Workshop on 9 Programming Units',
-			id: 'Workshop Bedah 9 Unit Pemrograman'
-		},
-		issuer: 'Universitas Bina Sarana Informatika',
-		issuerDisplay: {
-			en: 'Universitas Bina Sarana Informatika',
-			id: 'Universitas Bina Sarana Informatika'
-		},
-		date: '2025',
-		displayDate: {
-			en: '2025',
-			id: '2025'
-		},
-		category: 'workshop',
-		file: 'sertifikat-bedah-9-unit-pemrograman.webp',
-		thumb: 'sertifikat-bedah-9-unit-pemrograman-thumb.webp',
-		type: 'image',
-		skills: ['Programming Competencies', 'Software Development'],
 		showInCv: false,
 		showInPortfolio: true,
 		showOnWeb: true

@@ -18,6 +18,8 @@ export interface SiteConfig {
 	githubUser: string;
 	linkedinUrl: string;
 	linkedinUser: string;
+	instagramUrl: string;
+	instagramUser: string;
 	companyName: string;
 	aiName: string; // FlavoryAI (PRD §4.9 default decision)
 	availability: {
@@ -63,6 +65,8 @@ export const siteConfig: SiteConfig = {
 	githubUser: 'Thooms08',
 	linkedinUrl: 'https://www.linkedin.com/in/thomaslb08',
 	linkedinUser: 'thomaslb08',
+	instagramUrl: 'https://www.instagram.com/thomas_lb08',
+	instagramUser: 'thomas_lb08',
 	companyName: 'LIBIX',
 	aiName: 'FlavoryAI',
 	availability: {
@@ -74,8 +78,8 @@ export const siteConfig: SiteConfig = {
 	},
 	seo: {
 		title: {
-			en: 'Thomas Lefvi Baehaqi — Fullstack Web Developer | Laravel, Next.js',
-			id: 'Thomas Lefvi Baehaqi — Fullstack Web Developer | Laravel, Next.js'
+			en: 'Thomas Lefvi Baehaqi, Fullstack Web Developer | Laravel, Next.js',
+			id: 'Thomas Lefvi Baehaqi, Fullstack Web Developer | Laravel, Next.js'
 		},
 		description: {
 			en: 'Portfolio of Thomas Lefvi Baehaqi, a Fullstack Web Developer based in Karawang, Indonesia. Building business-ready digital products with Laravel, Next.js, and TypeScript.',

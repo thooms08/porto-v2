@@ -87,8 +87,8 @@ export const projects: ProjectItem[] = [
 			id: 'Website utama LIBIX, startup digital yang berfokus pada pengembangan web dan solusi digital.'
 		},
 		longDesc: {
-			en: 'The main digital hub of LIBIX startup — showcasing their suite of digital products, team, and mission. Built as a high-performance web presence representing the brand across all touchpoints.',
-			id: 'Hub digital utama startup LIBIX — memperkenalkan rangkaian produk digital, tim, dan misi perusahaan. Dibangun sebagai kehadiran web berperforma tinggi yang merepresentasikan brand di semua titik kontak.'
+			en: 'The main digital hub of LIBIX startup, showcasing their suite of digital products, team, and mission. Built as a high-performance web presence representing the brand across all touchpoints.',
+			id: 'Hub digital utama startup LIBIX, memperkenalkan rangkaian produk digital, tim, dan misi perusahaan. Dibangun sebagai kehadiran web berperforma tinggi yang merepresentasikan brand di semua titik kontak.'
 		},
 		stack: ['Next.js', 'TypeScript', 'Tailwind CSS'],
 		category: {

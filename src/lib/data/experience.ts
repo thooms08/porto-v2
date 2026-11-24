@@ -41,7 +41,7 @@ export const experiences: ExperienceItem[] = [
 			id: 'Magang'
 		},
 		description: {
-			en: 'Designed and built a document automation system (file generation) to solve the problem of manual document creation with thousands of records — a process that previously took weeks, now completed in minutes.',
+			en: 'Designed and built a document automation system (file generation) to solve the problem of manual document creation with thousands of records, a process that previously took weeks, now completed in minutes.',
 			id: 'Merancang dan membangun sistem otomatisasi pembuatan dokumen (generate file) untuk menyelesaikan masalah pembuatan dokumen manual dengan ribuan data yang memakan waktu berminggu-minggu, sehingga prosesnya kini hanya hitungan menit.'
 		},
 		technologies: ['Laravel', 'PHP', 'MySQL', 'JavaScript'],

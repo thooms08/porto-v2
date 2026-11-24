@@ -21,7 +21,7 @@ export const profileData: ProfileData = {
 	about: {
 		long: {
 			en: [
-				'I am an Information Systems student and Fullstack Web Developer focused on building digital solutions that deliver real business value. As the Founder of LIBIX — a digital startup focused on web development and digital solutions — I combine fullstack expertise across HTML, CSS, JavaScript, TypeScript, PHP, MySQL, Laravel, and Next.js to craft products that are efficient, secure, and user-friendly.',
+				'I am an Information Systems student and Fullstack Web Developer focused on building digital solutions that deliver real business value. As the Founder of LIBIX, a digital startup focused on web development and digital solutions, I combine fullstack expertise across HTML, CSS, JavaScript, TypeScript, PHP, MySQL, Laravel, and Next.js to craft products that are efficient, secure, and user-friendly.',
 				'I have built AI-powered F&B POS systems and HRMS that automate outlet operations, as well as Progressive Web Apps and software-hardware integrations. Every project emphasizes high performance, long-term scalability, and intuitive user experiences through modern AI-assisted development practices.'
 			],
 			id: [
@@ -30,7 +30,7 @@ export const profileData: ProfileData = {
 			]
 		},
 		cv: {
-			en: 'I am an Information Systems student at Bina Sarana Informatika University and a Fullstack Web Developer with proven experience delivering business-driven digital solutions. Founder of LIBIX — a digital startup focused on web development and digital solutions. Experienced in developing AI-based F&B POS systems, HRMS, Progressive Web Apps, and software-hardware integrations using Laravel, Next.js, PHP, TypeScript, and MySQL, with a strong focus on high performance, scalability, and intuitive UX.',
+			en: 'I am an Information Systems student at Bina Sarana Informatika University and a Fullstack Web Developer with proven experience delivering business-driven digital solutions. Founder of LIBIX, a digital startup focused on web development and digital solutions. Experienced in developing AI-based F&B POS systems, HRMS, Progressive Web Apps, and software-hardware integrations using Laravel, Next.js, PHP, TypeScript, and MySQL, with a strong focus on high performance, scalability, and intuitive UX.',
 			id: 'Saya Mahasiswa Sistem Informasi Universitas Bina Sarana Informatika dan Fullstack Web Developer dengan pengalaman nyata membangun solusi digital bernilai bisnis. Saya adalah Founder startup digital LIBIX yang berfokus pada pengembangan web dan solusi digital. Saya telah membangun Aplikasi POS F&B dan HRMS berbasis AI yang mengotomatisasi pengelolaan operasional outlet, serta berpengalaman mengembangkan Progressive Web App dan integrasi software-hardware menggunakan Laravel, Next.js, PHP, TypeScript, dan MySQL. Saya berorientasi pada performa tinggi, skalabilitas, dan pengalaman pengguna yang intuitif.'
 		}
 	},
@@ -67,7 +67,7 @@ export const profileData: ProfileData = {
 		}
 	],
 	stats: {
-		projectsCount: 8,
+		projectsCount: 6,
 		startYear: 2024
 	}
 };
