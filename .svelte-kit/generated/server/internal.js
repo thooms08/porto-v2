@@ -26,7 +26,7 @@ export const options = {
 		app: ({ head, body, assets, nonce, env }) => "<!doctype html>\n<html lang=\"%lang%\" class=\"dark\">\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\" />\n\t\t<meta name=\"theme-color\" content=\"#050816\" />\n\t\t<meta name=\"color-scheme\" content=\"dark\" />\n\t\t<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\" />\n\t\t<link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.ico\" />\n\t\t<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\" />\n\t\t<link rel=\"manifest\" href=\"/site.webmanifest\" />\n\t\t<script>\n\t\t\t// Progressive enhancement: add .js class when JavaScript is active\n\t\t\tdocument.documentElement.classList.add('js');\n\t\t</script>\n\t\t" + head + "\n\t</head>\n\t<body data-sveltekit-preload-data=\"hover\">\n\t\t<div style=\"display: contents\">" + body + "</div>\n\t</body>\n</html>\n",
 		error
 	},
-	version_hash: "1838bui"
+	version_hash: "1pk37bx"
 };
 
 export async function get_hooks() {

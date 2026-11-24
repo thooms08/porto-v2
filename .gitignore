@@ -39,5 +39,5 @@ yarn-error.log*
 CV_-_Thomas_Lefvi_Baehaqi.pdf
 Portofolio\ -\ Thomas\ Lefvi\ Baehaqi.pdf
 
-# ── build TIDAK di-ignore (sengaja di-push untuk deploy) ──
-# build/
+# ── build TIDAK di-push (deploy manual: upload isi build/ ke public_html/) ──
+build/
