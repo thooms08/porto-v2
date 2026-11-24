@@ -253,7 +253,7 @@
                   rel="noopener noreferrer me"
                   class="contact-link"
                 >
-                  @{siteConfig.instagramUser}
+                  instagram.com/{siteConfig.instagramUser}
                 </a>
               </div>
             </div>
