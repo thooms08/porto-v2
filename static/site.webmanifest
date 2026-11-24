@@ -2,7 +2,7 @@
   "name": "Thomas Lefvi Baehaqi — Fullstack Web Developer",
   "short_name": "Thomas LB",
   "start_url": "/",
-  "display": "standalone",
+  "display": "browser",
   "background_color": "#050816",
   "theme_color": "#050816",
   "icons": [
