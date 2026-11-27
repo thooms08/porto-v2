@@ -29,7 +29,7 @@
 	<title>{t(siteConfig.seo.title, locale)}</title>
 	<meta name="description" content={t(siteConfig.seo.description, locale)} />
 	<meta name="author" content={siteConfig.name} />
-	<meta name="keywords" content="Thomas Lefvi Baehaqi, Fullstack Web Developer, Web Developer Indonesia, Laravel Developer, Next.js Developer, TypeScript, PHP Developer, POS System, HRMS, E-Commerce, Progressive Web App, PWA, Karawang, Jawa Barat, Indonesia, LIBIX, FlavoryID, freelance web developer, software engineer, Universitas Bina Sarana Informatika, UBSI" />
+	<meta name="keywords" content="Thomas Lefvi Baehaqi, Fullstack Web Developer, Web Developer Indonesia, Laravel Developer, Next.js Developer, TypeScript, PHP Developer, POS System, HRMS, E-Commerce, Progressive Web App, PWA, Karawang, Jawa Barat, Indonesia, freelance web developer, software engineer, Universitas Bina Sarana Informatika, UBSI, Team Leader" />
 	<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
 	<meta name="googlebot" content="index,follow" />
 

@@ -28,8 +28,8 @@
         id: "Saya membangun aplikasi web\nuntuk bisnis nyata.",
       },
       sub: {
-        en: "Founder of LIBIX, web development & digital solutions",
-        id: "Founder LIBIX, pengembangan web & solusi digital",
+        en: "Fullstack Web Developer with Team Leadership capability",
+        id: "Fullstack Web Developer dengan kemampuan Team Leadership",
       },
       photoSide: "left" as const,
     },

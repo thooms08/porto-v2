@@ -1,30 +1,29 @@
 # Thomas Lefvi Baehaqi
 
-> Fullstack Web Developer & Founder of FlavoryID Technologies, based in Karawang, West Java, Indonesia.
+> Fullstack Web Developer with Team Leadership capability, based in Karawang, West Java, Indonesia.
 
 ## Summary
-Thomas Lefvi Baehaqi is an Information Systems undergraduate at Universitas Bina Sarana Informatika and an experienced Fullstack Web Developer. He architects and delivers commercial digital products including F&B POS systems, HRMS, and e-commerce platforms using Laravel, Next.js, TypeScript, PHP, and MySQL.
+Thomas Lefvi Baehaqi is an Information Systems undergraduate at Universitas Bina Sarana Informatika and an experienced Fullstack Web Developer with proven Team Leadership capability. He architects and delivers commercial digital products including F&B POS systems, HRMS, and e-commerce platforms using Laravel, Next.js, TypeScript, PHP, and MySQL.
 
 - **Website**: https://thomaslefvibaehaqi.my.id
 - **Email**: thomaslefvibaehaqi@gmail.com
 - **Phone/WhatsApp**: +62 851-7828-6438 (https://wa.me/6285178286438)
 - **GitHub**: https://github.com/Thooms08
 - **LinkedIn**: https://www.linkedin.com/in/thomaslb08
-- **Last Updated**: 2026-11-24
+- **Last Updated**: 2026-11-27
 
 ## Core Technologies
 - Frontend: HTML5, CSS3, JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, Bootstrap
 - Backend: PHP, Laravel, Node.js, REST APIs, MySQL, Prisma ORM
 - Mobile: Flutter, Dart
-- Cloud & Tooling: Git, GitHub, Vercel, Cloudflare, Google Cloud, VSCode, Laragon
+- Cloud & Tooling: Git, GitHub, Vercel, Cloudflare, VSCode, Laragon
 
 ## Key Projects
 - **Flavory.id** (https://flavory.id): Integrated F&B POS system with real-time orders, automated accounting, and FlavoryAI.
 - **Key.Flavory.id** (https://key.flavory.id): HRMS platform for MSMEs (attendance, employee profiles, scheduling).
-- **Blog.Flavory.id** (https://blog.flavory.id): Tech and digital innovation media publication.
 - **Supermura.id** (https://supermura.id): Low-MOQ fashion e-commerce platform connecting brands with suppliers.
 - **Recomon.my.id** (https://recomon.my.id): Interactive digital card and invitation generator.
-- **Imkompres** (https://imkompres.vercel.app): 100% in-browser client-side image and video compressor.
+- **Imkompres** (https://imkompres.vercel.app): 100% in-browser client-side image compressor.
 
 ## Verified Credentials
 - Database Administrator Competence Certificate (BNSP & LSP UBSI, 2026)

@@ -126,13 +126,13 @@
         "@type": "Organization",
         "@id": `${siteConfig.siteUrl}/#organization`,
         name: siteConfig.companyName,
-        url: "https://libix.tech",
+        url: siteConfig.siteUrl,
         founder: { "@id": `${siteConfig.siteUrl}/#person` },
         foundingDate: "2024",
         description:
           locale === "id"
-            ? "Startup digital yang berfokus pada pengembangan web dan solusi digital."
-            : "Digital startup focused on web development and digital solutions.",
+            ? "Fullstack Web Developer yang berfokus pada pengembangan solusi digital dan aplikasi web modern."
+            : "Fullstack Web Developer focused on building digital solutions and modern web applications.",
       },
       {
         "@type": "ItemList",

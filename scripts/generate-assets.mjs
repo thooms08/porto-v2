@@ -119,7 +119,7 @@ async function processPhotosAndFavicons() {
   <rect x="40" y="40" width="1120" height="550" rx="20" fill="none" stroke="rgba(148,163,200,0.18)" stroke-width="1"/>
   <text x="90" y="160" font-family="system-ui, sans-serif" font-size="20" font-weight="600" fill="#5b7cff" letter-spacing="3">FULLSTACK WEB DEVELOPER · KARAWANG</text>
   <text x="90" y="240" font-family="system-ui, sans-serif" font-size="54" font-weight="700" fill="#e8ebf8">Thomas Lefvi Baehaqi</text>
-  <text x="90" y="310" font-family="system-ui, sans-serif" font-size="24" fill="#98a1c4">Founder of FlavoryID Technologies</text>
+  <text x="90" y="310" font-family="system-ui, sans-serif" font-size="24" fill="#98a1c4">Fullstack Web Developer with Team Leadership</text>
   <text x="90" y="370" font-family="system-ui, sans-serif" font-size="20" fill="#98a1c4">Laravel · Next.js · TypeScript · MySQL · POS · E-Commerce</text>
   <rect x="90" y="440" width="280" height="52" rx="10" fill="#5b7cff"/>
   <text x="230" y="473" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="600" fill="#060a1f">thomaslefvibaehaqi.my.id</text>

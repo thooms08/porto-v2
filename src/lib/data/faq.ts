@@ -14,8 +14,8 @@ export const faqs: FaqItem[] = [
       id: "Siapa itu Thomas Lefvi Baehaqi?",
     },
     answer: {
-      en: "Thomas Lefvi Baehaqi is an Information Systems student and Fullstack Web Developer based in Karawang, West Java, Indonesia. He is the Founder of FlavoryID Technologies and builds business-driven digital solutions ranging from POS systems to modern e-commerce.",
-      id: "Thomas Lefvi Baehaqi adalah mahasiswa Sistem Informasi dan Fullstack Web Developer yang berdomisili di Karawang, Jawa Barat. Ia merupakan Founder FlavoryID Technologies yang berfokus membangun solusi digital bernilai bisnis nyata mulai dari sistem kasir POS hingga e-commerce modern.",
+      en: "Thomas Lefvi Baehaqi is an Information Systems student and Fullstack Web Developer based in Karawang, West Java, Indonesia. With proven Team Leadership capability, he builds business-driven digital solutions ranging from POS systems to modern e-commerce.",
+      id: "Thomas Lefvi Baehaqi adalah mahasiswa Sistem Informasi dan Fullstack Web Developer yang berdomisili di Karawang, Jawa Barat. Dengan kemampuan Team Leadership yang terbukti, ia fokus membangun solusi digital bernilai bisnis nyata mulai dari sistem kasir POS hingga e-commerce modern.",
     },
   },
   {

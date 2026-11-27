@@ -45,6 +45,14 @@
           <div class="edu-body">
             <h3 class="edu-institution">{edu.institution}</h3>
             <p class="edu-degree">{t(edu.degree, locale)}</p>
+            {#if edu.gpa}
+              <p class="edu-gpa">
+                {edu.current 
+                  ? t({ en: "Current GPA", id: "IPK Saat Ini" }, locale)
+                  : t({ en: "Average Grade", id: "Nilai Rata-rata" }, locale)}: 
+                <strong>{edu.gpa}</strong>
+              </p>
+            {/if}
           </div>
         </article>
       {/each}
@@ -173,6 +181,19 @@
     line-height: 1.65;
     color: var(--text-muted);
     max-width: 62ch;
+    margin-bottom: 0.5rem;
+  }
+
+  .edu-gpa {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+  }
+
+  .edu-gpa strong {
+    color: var(--neb-cyan);
+    font-weight: 600;
   }
 
   @media (min-width: 720px) {
@@ -195,6 +216,11 @@
 
     .edu-degree {
       font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .edu-gpa {
+      font-size: 0.9375rem;
     }
   }
 </style>

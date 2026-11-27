@@ -5,6 +5,7 @@ export interface EducationItem {
   degree: Localized;
   field: Localized;
   period: Localized;
+  gpa?: string;
   current: boolean;
   showInCv: boolean;
   showInPortfolio: boolean;
@@ -26,6 +27,7 @@ export const educationList: EducationItem[] = [
       en: "2024 – Present",
       id: "2024 – Sekarang",
     },
+    gpa: "3.86",
     current: true,
     showInCv: true,
     showInPortfolio: true,
@@ -45,6 +47,7 @@ export const educationList: EducationItem[] = [
       en: "2021 – 2024",
       id: "2021 – 2024",
     },
+    gpa: "85.70",
     current: false,
     showInCv: true,
     showInPortfolio: true,

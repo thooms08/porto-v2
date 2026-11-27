@@ -48,8 +48,8 @@ export const siteConfig: SiteConfig = {
     id: "Fullstack web developer yang membangun solusi digital bernilai bisnis nyata.",
   },
   subheadline: {
-    en: "Founder of LIBIX. I design and ship POS systems, HRMS, e-commerce, and Progressive Web Apps with Laravel, Next.js, and TypeScript.",
-    id: "Founder LIBIX. Merancang dan mengembangkan sistem POS, HRMS, e-commerce, dan Progressive Web App menggunakan Laravel, Next.js, dan TypeScript.",
+    en: "Fullstack Web Developer with Team Leadership capability. I design and ship POS systems, HRMS, e-commerce, and Progressive Web Apps with Laravel, Next.js, and TypeScript.",
+    id: "Fullstack Web Developer dengan kemampuan Team Leadership. Merancang dan mengembangkan sistem POS, HRMS, e-commerce, dan Progressive Web App menggunakan Laravel, Next.js, dan TypeScript.",
   },
   email: "thomaslefvibaehaqi@gmail.com",
   phone: "+6285178286438",
@@ -67,7 +67,7 @@ export const siteConfig: SiteConfig = {
   linkedinUser: "thomaslb08",
   instagramUrl: "https://www.instagram.com/thomas_lb08",
   instagramUser: "thomas_lb08",
-  companyName: "LIBIX",
+  companyName: "Thomas Lefvi Baehaqi",
   aiName: "FlavoryAI",
   availability: {
     show: false,

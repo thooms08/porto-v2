@@ -1,6 +1,6 @@
 # Thomas Lefvi Baehaqi - Personal Portfolio
 
-Personal portfolio website of Thomas Lefvi Baehaqi, Fullstack Web Developer and Founder of LIBIX.
+Personal portfolio website of Thomas Lefvi Baehaqi, Fullstack Web Developer with Team Leadership capability.
 
 Live: [thomaslefvibaehaqi.my.id](https://thomaslefvibaehaqi.my.id)
 
@@ -194,7 +194,7 @@ To add a new photo:
 
 ## Background
 
-The name decision for the company (LIBIX vs FlavoryID Technologies) reflects the current CV and Portfolio as of November 2026. The AI name "FlavoryAI" is used only within the Flavory.id product context. The constant `aiName` in `site.ts` controls this.
+Portfolio website built with SvelteKit and TypeScript, featuring bilingual support (EN/ID), responsive design, and SEO optimization. The AI name "FlavoryAI" is used only within the Flavory.id product context. The constant `aiName` in `site.ts` controls this.
 
 ---
 

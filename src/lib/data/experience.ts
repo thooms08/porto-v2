@@ -113,36 +113,4 @@ export const experiences: ExperienceItem[] = [
     showInPortfolio: true,
     showOnWeb: true,
   },
-  {
-    id: "libix",
-    role: {
-      en: "Founder",
-      id: "Founder",
-    },
-    company: "LIBIX",
-    companyDisplay: {
-      en: "LIBIX (Digital Startup)",
-      id: "LIBIX (Startup Digital)",
-    },
-    period: {
-      en: "Founder",
-      id: "Founder",
-    },
-    location: {
-      en: "Indonesia",
-      id: "Indonesia",
-    },
-    type: {
-      en: "Founder",
-      id: "Founder",
-    },
-    description: {
-      en: "Founded and leads LIBIX, a digital startup focused on web development and digital solutions, building a suite of integrated products including Flavory.id POS, Key.Flavory HRMS, and the LIBIX digital ecosystem.",
-      id: "Mendirikan dan memimpin LIBIX, startup digital yang berfokus pada pengembangan web dan solusi digital, membangun rangkaian produk terpadu termasuk POS Flavory.id, HRMS Key.Flavory, dan ekosistem digital LIBIX.",
-    },
-    technologies: ["Laravel", "Next.js", "TypeScript", "MySQL", "Prisma ORM"],
-    showInCv: false,
-    showInPortfolio: false,
-    showOnWeb: true,
-  },
 ];

@@ -17,7 +17,6 @@
       match: /supermura/,
       stack: [
         "Laravel",
-        "PostgreSQL",
         "Redis",
         "Alpine.js",
         "jQuery",
@@ -25,13 +24,12 @@
       ],
     },
     {
-      match: /libix/,
+      match: /diskominfo|farkatech|supermura/,
       stack: [
         "Laravel",
         "Next.js",
         "SvelteKit",
         "Flutter",
-        "PostgreSQL",
         "MySQL",
         "Redis",
         "TailwindCSS",

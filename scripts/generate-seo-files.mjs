@@ -93,10 +93,10 @@ Sitemap: ${siteUrl}/sitemap.xml
 	// 3. llms.txt (Concise AI summary, entity-first)
 	const llmsTxt = `# Thomas Lefvi Baehaqi
 
-> Fullstack Web Developer & Founder of FlavoryID Technologies, based in Karawang, West Java, Indonesia.
+> Fullstack Web Developer with Team Leadership capability, based in Karawang, West Java, Indonesia.
 
 ## Summary
-Thomas Lefvi Baehaqi is an Information Systems undergraduate at Universitas Bina Sarana Informatika and an experienced Fullstack Web Developer. He architects and delivers commercial digital products including F&B POS systems, HRMS, and e-commerce platforms using Laravel, Next.js, TypeScript, PHP, and MySQL.
+Thomas Lefvi Baehaqi is an Information Systems undergraduate at Universitas Bina Sarana Informatika and an experienced Fullstack Web Developer with proven Team Leadership capability. He architects and delivers commercial digital products including F&B POS systems, HRMS, and e-commerce platforms using Laravel, Next.js, TypeScript, PHP, and MySQL.
 
 - **Website**: ${siteUrl}
 - **Email**: thomaslefvibaehaqi@gmail.com
@@ -109,15 +109,14 @@ Thomas Lefvi Baehaqi is an Information Systems undergraduate at Universitas Bina
 - Frontend: HTML5, CSS3, JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, Bootstrap
 - Backend: PHP, Laravel, Node.js, REST APIs, MySQL, Prisma ORM
 - Mobile: Flutter, Dart
-- Cloud & Tooling: Git, GitHub, Vercel, Cloudflare, Google Cloud, VSCode, Laragon
+- Cloud & Tooling: Git, GitHub, Vercel, Cloudflare, VSCode, Laragon
 
 ## Key Projects
 - **Flavory.id** (https://flavory.id): Integrated F&B POS system with real-time orders, automated accounting, and FlavoryAI.
 - **Key.Flavory.id** (https://key.flavory.id): HRMS platform for MSMEs (attendance, employee profiles, scheduling).
-- **Blog.Flavory.id** (https://blog.flavory.id): Tech and digital innovation media publication.
 - **Supermura.id** (https://supermura.id): Low-MOQ fashion e-commerce platform connecting brands with suppliers.
 - **Recomon.my.id** (https://recomon.my.id): Interactive digital card and invitation generator.
-- **Imkompres** (https://imkompres.vercel.app): 100% in-browser client-side image and video compressor.
+- **Imkompres** (https://imkompres.vercel.app): 100% in-browser client-side image compressor.
 
 ## Verified Credentials
 - Database Administrator Competence Certificate (BNSP & LSP UBSI, 2026)
@@ -142,8 +141,7 @@ Language: English & Indonesian
 
 ## 1. Professional Identity & Contact
 - **Name**: Thomas Lefvi Baehaqi
-- **Role**: Fullstack Web Developer
-- **Organization**: Founder of FlavoryID Technologies
+- **Role**: Fullstack Web Developer with Team Leadership Capability
 - **Location**: Karawang, West Java, Indonesia
 - **Email**: thomaslefvibaehaqi@gmail.com
 - **Phone / WhatsApp**: +62 851-7828-6438 (https://wa.me/6285178286438)
@@ -154,7 +152,7 @@ Language: English & Indonesian
 ---
 
 ## 2. Professional Biography
-Thomas Lefvi Baehaqi is an Information Systems student and Fullstack Web Developer focused on building digital solutions that deliver real business value. As the Founder of the FlavoryID Technologies digital ecosystem, he combines fullstack expertise across HTML, CSS, JavaScript, TypeScript, PHP, MySQL, Laravel, and Next.js to craft products that are efficient, secure, and user-friendly.
+Thomas Lefvi Baehaqi is an Information Systems student and Fullstack Web Developer focused on building digital solutions that deliver real business value. With proven Team Leadership capability, he combines fullstack expertise across HTML, CSS, JavaScript, TypeScript, PHP, MySQL, Laravel, and Next.js to craft products that are efficient, secure, and user-friendly.
 
 He has spearheaded the development of F&B POS ecosystems, Progressive Web Apps, integrated data management systems, and software-hardware integrations. Every project emphasizes high performance, long-term scalability, and intuitive user experiences through modern AI-assisted development practices.
 
@@ -171,10 +169,6 @@ He has spearheaded the development of F&B POS ecosystems, Progressive Web Apps, 
    - Project: Supermura.id
    - Scope: Led full-cycle development and deployment of the Supermura.id e-commerce platform end-to-end, including core feature architecture, payment gateway integration, and production stability assurance.
 
-3. **Founder** — FlavoryID Technologies
-   - Period: Founder
-   - Scope: Founded and directs the FlavoryID Technologies digital ecosystem, overseeing products including Flavory.id, Key.Flavory.id, and Blog.Flavory.id.
-
 ---
 
 ## 4. Completed Projects
@@ -188,12 +182,7 @@ He has spearheaded the development of F&B POS ecosystems, Progressive Web Apps, 
    - Stack: Laravel, MySQL
    - Description: Human Resource Management System for MSMEs: digital employee profiles, geolocation shift attendance, leave requests, and payroll-ready reporting.
 
-3. **Blog.Flavory.id** (https://blog.flavory.id)
-   - Category: Digital Media Publication
-   - Stack: Next.js, TypeScript, Prisma ORM
-   - Description: High-performance digital publication platform covering technology, business, and digital innovation.
-
-4. **Supermura.id** (https://supermura.id)
+3. **Supermura.id** (https://supermura.id)
    - Category: Fashion E-Commerce
    - Stack: Laravel, MySQL
    - Description: Low-MOQ fashion e-commerce marketplace connecting local brands and resellers directly with apparel suppliers.
@@ -224,7 +213,7 @@ He has spearheaded the development of F&B POS ecosystems, Progressive Web Apps, 
 - **Frontend**: HTML5, CSS3, JavaScript, TypeScript, Bootstrap, Tailwind CSS, React.js, Next.js
 - **Backend**: PHP, Laravel, Node.js, RESTful APIs, MySQL, phpMyAdmin, Prisma ORM
 - **Mobile**: Flutter, Dart
-- **Dev Tools**: Git, GitHub, Figma, Vercel, Cloudflare, Google Cloud, VSCode, Laragon, Ngrok
+- **Dev Tools**: Git, GitHub, Figma, Vercel, Cloudflare, VSCode, Laragon, Ngrok
 - **AI Tooling**: Claude, Google Gemini, GitHub Copilot, Kiro IDE
 - **Soft Skills**: Problem Solving, Analytical Thinking, Teamwork, Leadership, Time Management, Public Speaking, Detail-Oriented
 

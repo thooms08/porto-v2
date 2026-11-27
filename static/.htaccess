@@ -1,24 +1,19 @@
-Options -Indexes
-
-# Serve pre-rendered HTML files
 DirectoryIndex index.html
 
-# Redirect HTTP → HTTPS
 RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# If the requested file/directory exists, serve it directly
-RewriteCond %{REQUEST_FILENAME} -f [OR]
+# If the requested file exists, serve it directly
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# If the requested directory exists, serve it directly
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
 
-# Fallback: strip trailing slash and try .html file
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.+?)/?$ /$1/index.html [L]
+# Fallback: route everything to index.html (SPA routing)
+RewriteRule ^ /index.html [L]
 
-# Cache static assets aggressively
+# Cache static assets
 <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresByType text/html                 "access plus 0 seconds"
